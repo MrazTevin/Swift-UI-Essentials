@@ -10,10 +10,17 @@ import SwiftUI
 struct LandMarkList: View {
 
     var body: some View {
-        List(landmarks) {landmark in
-            LandMarkRow(landmark: landmark)
+        NavigationStack {
+            List(landmarks) {landmark in
+                NavigationLink{
+                    LandMarkDetail()
+                }label: {
+                    LandMarkRow(landmark: landmark)
+                }
+            }
+            .listStyle(.insetGrouped)
+            .navigationTitle("Landmarks")
         }
-        .listStyle(.insetGrouped)
     }
 }
 
