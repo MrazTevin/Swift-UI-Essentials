@@ -10,10 +10,10 @@ import SwiftUI
 struct LandMarkList: View {
 
     var body: some View {
-        List {
-            LandMarkRow(landmark: landmarks[0])
-            LandMarkRow(landmark: landmarks[1])
+        List(landmarks) {landmark in
+            LandMarkRow(landmark: landmark)
         }
+        .listStyle(.insetGrouped)
     }
 }
 
