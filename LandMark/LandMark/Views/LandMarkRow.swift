@@ -18,6 +18,10 @@ struct LandMarkRow: View {
             Text(landmark.name)
                 
             Spacer()
+            if(landmark.isFavorite){
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
         .padding()
     }
@@ -25,8 +29,8 @@ struct LandMarkRow: View {
 
 #Preview {
     Group{
-        LandMarkRow(landmark: landmarks[3])
-        LandMarkRow(landmark: landmarks[4])
+        LandMarkRow(landmark: landmarks[0])
+        LandMarkRow(landmark: landmarks[1])
     }
     .previewLayout(.fixed(width: 300, height: 70))
 }
