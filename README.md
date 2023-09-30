@@ -6,6 +6,26 @@ The app leverages various iOS technologies, including:
 - Core Location,
 - Combine, and other tools to create a seamless and engaging user experience.
 
+  
+## Screenshots 
+### Home screen
+<p float="left">
+  <img src="https://github.com/Huss3n/Swift-UI-Essentials/blob/main/LandMark/Screenshots/HomescreenLight.png" width="375px" height="812px" hspace="20">
+  <img src="https://github.com/Huss3n/Swift-UI-Essentials/blob/main/LandMark/Screenshots/HomescreenDark.png" width="375px" height="812px">
+</p>
+
+### About screen
+<p float="left">
+  <img src="https://github.com/Huss3n/Swift-UI-Essentials/blob/main/LandMark/Screenshots/AboutLight.png" width="375px" height="812px" hspace="20">
+  <img src="https://github.com/Huss3n/Swift-UI-Essentials/blob/main/LandMark/Screenshots/AboutDark.png" width="375px" height="812px">
+</p>
+
+### Favorites screen
+<p float="left">
+  <img src="https://github.com/Huss3n/Swift-UI-Essentials/blob/main/LandMark/Screenshots/FavoritesLight.png" width="375px" height="812px" hspace="20">
+  <img src="https://github.com/Huss3n/Swift-UI-Essentials/blob/main/LandMark/Screenshots/FavoritesDark.png" width="375px" height="812px">
+</p>
+
 ## Features
 The Landmarks app consists of the following projects:
 
@@ -36,23 +56,20 @@ The Landmarks app utilizes the following key technologies:
 ## How to Run the App
 To run the Landmarks app locally, follow these steps:
 
-Clone the repository to your local machine.
-        git clone https://github.com/huss3n/Swift-UI-Essentials/landmarks-app.git
-Open the project in Xcode.
-
-Build and run the Landmarks app on a simulator or a physical iOS device.
+1. Clone the repository to your local machine.
+2. Open the project in Xcode.
+3. Build and run the Landmarks app on a simulator or a physical iOS device.
 
 ## Contributing
-If you'd like to contribute to the development of the Landmarks app, please follow these steps:
+If you'd like to contribute or add more features to the Landmarks app, please follow these steps:
 
 Fork the repository on GitHub.
-
-### Create a new branch with a descriptive name.
+1. Create a new branch with a descriptive name.
 git checkout -b feature/new-feature
 
-### Make your changes and commit them with clear and concise messages.
+2. Make your changes and commit them with clear and concise messages.
 git commit -m "Add new feature: XYZ"
-### Push your branch to your forked repository.
+3. Push your branch to your forked repository.
 - git push origin feature/new-feature
 - Open a pull request on GitHub, explaining the purpose and details of your changes.
 
