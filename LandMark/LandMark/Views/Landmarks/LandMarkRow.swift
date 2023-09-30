@@ -29,8 +29,8 @@ struct LandMarkRow: View {
 
 #Preview {
     Group{
-        LandMarkRow(landmark: landmarks[0])
-        LandMarkRow(landmark: landmarks[1])
+        LandMarkRow(landmark: ModelData().landmarks[0])
+        LandMarkRow(landmark: ModelData().landmarks[1])
     }
     .previewLayout(.fixed(width: 300, height: 70))
 }
