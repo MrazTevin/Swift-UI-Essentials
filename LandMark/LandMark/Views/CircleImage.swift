@@ -9,13 +9,12 @@ import SwiftUI
 
 
 struct CircleImage: View {
+    var image: Image
     var body: some View {
-        Image("turtlerock")
-            .useOnImage()
-        
+        image
     }
 }
 
 #Preview {
-    CircleImage()
+    CircleImage(image: Image("turtlerock"))
 }

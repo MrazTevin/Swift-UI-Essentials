@@ -17,6 +17,7 @@ struct ImageEdit: ViewModifier{
                 Circle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
+            .ignoresSafeArea()
     }
 }
 
